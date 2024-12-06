@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css'
 
 import MainPage from './components/MainPage'
-import Accordion from './components/accordion/accordion';
+import Accordion from './components/Accordion/Accordion';
 import RandomColorGenerator from './components/RandomColorGenerator/RandomCOlorGenerator';
 import TodoList from './components/TodoList/TodoList';
 import StarRating from './components/Star_rating_Component/StarRating';

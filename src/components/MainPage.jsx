@@ -1,5 +1,5 @@
 import React , { useState } from 'react'
-import Accordion from './accordion/accordion'
+import Accordion from './Accordion/accordion'
 import RandomColorGenerator from './RandomColorGenerator/RandomCOlorGenerator'
 import '../App.css'
 import TodoList from './TodoList/TodoList'
