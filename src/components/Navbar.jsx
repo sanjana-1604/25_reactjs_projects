@@ -26,6 +26,9 @@ function Navbar() {
                 <Link to="/ImageSlider">Image Slider</Link>
             </li>
             <li className='p-2 text-m'>
+                <Link to="/LoadMoreBtn">Load More Button</Link>
+            </li> 
+            <li className='p-2 text-m'>
                 <Link to=""></Link>
             </li> 
         </ul>

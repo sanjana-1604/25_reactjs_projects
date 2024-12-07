@@ -9,6 +9,7 @@ import TodoList from './components/TodoList/TodoList';
 import StarRating from './components/Star_rating_Component/StarRating';
 import ImageSlider from './components/Image_Slider/ImageSlider';
 import Navbar from './components/Navbar';
+import LoadMoreBtn from './components/Load_More_Btn/LoadMoreBtn';
 
 
 function App() {
@@ -26,8 +27,8 @@ function App() {
         <Route path='/TodoList' element={<TodoList/>}></Route>
         <Route path='/StarRating' element={<StarRating/>}></Route>
         <Route path='/ImageSlider' element={<ImageSlider/>}></Route>
-       {/*  <Route path='/' element={</>}></Route>
-        <Route path='/' element={</>}></Route>
+         <Route path='/LoadMoreBtn' element={<LoadMoreBtn/>}></Route>
+        {/*<Route path='/' element={</>}></Route>
         <Route path='/' element={</>}></Route> */}
 
       </Routes>
