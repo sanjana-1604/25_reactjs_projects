@@ -7,7 +7,7 @@ function Navbar() {
     <>
     <nav >
         <ul className='flex flex-row '>
-            <li  className='p-2 text-m mt-1'>
+            <li  className='p-2 text-m mt-1 border-[0.05px] border-gray-200'>
             <Link to="/"><FaReact /></Link>
             </li>
             <li className='p-2 text-m'>
@@ -29,8 +29,11 @@ function Navbar() {
                 <Link to="/LoadMoreBtn">Load More Button</Link>
             </li> 
             <li className='p-2 text-m'>
-                <Link to=""></Link>
+                <Link to="/Form">Form</Link>
             </li> 
+            <li className='p-2 text-m'>
+                <Link to=""></Link>
+            </li>
         </ul>
 
     </nav>

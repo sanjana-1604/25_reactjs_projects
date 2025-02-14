@@ -1,0 +1,14 @@
+
+
+.card_container
+{
+    @apply w-[386px] bg-white p-6 rounded-lg shadow-md
+}
+.form_input
+{
+    @apply text-sm bg-slate-200 rounded-sm m-2 p-2
+}
+.form_btn
+{
+    @apply bg-blue-500 rounded-lg w-[50%] text-sm py-2 mt-2
+}

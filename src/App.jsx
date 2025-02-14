@@ -10,6 +10,7 @@ import StarRating from './components/Star_rating_Component/StarRating';
 import ImageSlider from './components/Image_Slider/ImageSlider';
 import Navbar from './components/Navbar';
 import LoadMoreBtn from './components/Load_More_Btn/LoadMoreBtn';
+import Form from './components/SubmissionForm/Form'
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
         <Route path='/StarRating' element={<StarRating/>}></Route>
         <Route path='/ImageSlider' element={<ImageSlider/>}></Route>
          <Route path='/LoadMoreBtn' element={<LoadMoreBtn/>}></Route>
+         <Route path='/Form' element={<Form/>}></Route>
         {/*<Route path='/' element={</>}></Route>
         <Route path='/' element={</>}></Route> */}
 
